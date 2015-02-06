@@ -1,6 +1,4 @@
 ---
-permalink: /education-and-advocacy/
-title: Education and Advocacy
 ---
 ## {{ page.title }}
 

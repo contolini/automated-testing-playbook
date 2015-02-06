@@ -1,6 +1,4 @@
 ---
-permalink: /apis-and-legacy-systems/
-title: APIs and Legacy Systems
 ---
 ## {{ page.title }}
 

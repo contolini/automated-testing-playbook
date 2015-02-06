@@ -1,27 +1,44 @@
 ---
-permalink: /principles-practices-idioms/
 title: Principles, Practices and Idioms
+subtitle: Fundamental automated testing and design concepts that inform the craft of writing automated tests and testable code.
+
+breadcrumbs:
+  - text: Home
+    link: /
+  - text: Testing
+    link: /testing
+
+contents:
+  - text: "Small, Medium, and Large Test Sizes: The Test Size Pyramid"
+    link: "#sml"
+  - text: Strongly Prefer Composition over Implementation Inheritance
+    link: "#composition"
+  - text: Know the Difference Between Stubs, Mocks, and Fakes
+    link: "#doubles"
+  - text: Avoid Mocks
+    link: "#avoid-mocks"
+  - text: Prefer Fakes
+    link: "#prefer-fakes"
+  - text: Avoid Data-Driven Tests
+    link: "#avoid-data-driven-tests"
+    
+  - text: Avoid Golden File Tests (Unless They Make Sense)
+    link: "#avoid-golden-files"
+  - text: Prefer Self-Contained Test Cases with Good Names
+    link: "#self-contained-good-names"
+  - text: Apply the Pseudo-xUnit Pattern If Necessary
+    link: "#pseudo-xunit"
+  - text: Well-Crafted Test Case Repetition Helps
+    link: "#test-repetition"
+  - text: Duplicate Code is a (Testing) Nightmare
+    link: "#duplicate-code"
+
+permalink: /principles-practices-idioms/
 ---
-## {{ page.title }}
-
-Fundamental automated testing and design concepts that inform the craft of
-writing automated tests and testable code.
-
-- [Small, Medium, and Large Test Sizes: The Test Size Pyramid](#sml)
-- [Strongly Prefer Composition over Implementation Inheritance](#composition)
-- [Know the Difference Between Stubs, Mocks, and Fakes](#doubles)
-- [Avoid Mocks](#avoid-mocks)
-- [Prefer Fakes](#prefer-fakes)
-- [Avoid Data-Driven Tests](#avoid-data-driven-tests)
-- [Avoid Golden File Tests (Unless They Make Sense)](#avoid-golden-files)
-- [Prefer Self-Contained Test Cases with Good Names](#self-contained-good-names)
-- [Apply the Pseudo-xUnit Pattern If Necessary](#pseudo-xunit)
-- [Well-Crafted Test Case Repetition Helps](#test-repetition)
-- [Duplicate Code is a (Testing) Nightmare](#duplicate-code)
 
 ### <a name="sml"></a>Small, Medium, and Large Test Sizes: The Test Size Pyramid
 
-![Small/Medium/Large Test Size Pyramid](../assets/images/sml.jpg)<br/>
+![Small/Medium/Large Test Size Pyramid]({{ site.baseurl }}/automated-testing-playbook/assets/images/sml.jpg)<br/>
 _Illustration by Catherine Laplace, based on my hand-drawn sketch of a slide
 from the Google Unit Testing Lecture slides, originally by Nick
 Lesiecki_

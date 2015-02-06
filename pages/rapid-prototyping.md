@@ -1,6 +1,4 @@
 ---
-permalink: /rapid-prototyping/
-title: Rapid Prototyping
 ---
 ## {{ page.title }}
 
